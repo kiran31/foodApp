@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    >
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextAppearance="@style/MineCustomTabText"
+
+        app:tabTextColor="@color/white"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/space_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tab_layout"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        android:elevation="@dimen/space_5"
+        android:weightSum="2"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/grid"
+           android:src="@drawable/icons8_activity_grid_2_48px"
+
+            android:padding="@dimen/space_5"
+            android:tag="grid"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/space_5"
+            android:visibility="gone"
+            android:layout_marginBottom="@dimen/space_5"/>
+
+        <RelativeLayout
+            android:id="@+id/rel_sort"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <binplus.foodiswill.Fonts.LatoBLack
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/sort"
+                android:tag="sort"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:text="Sort"
+                android:drawableTint="@color/colorPrimary"
+                android:drawableLeft="@drawable/icons8_sorting_arrows_48px"
+                android:textSize="18dp"
+                android:layout_marginLeft="@dimen/space_10"
+                android:padding="@dimen/space_10"
+                android:layout_weight="1"
+                android:tint="@color/colorPrimary"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_marginTop="@dimen/space_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_subcategory"
+            android:background="@color/all"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foregroundGravity="center"
+
+
+            />
+        <ImageView
+            android:id="@+id/img_no_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/no1"
+           android:visibility="gone"
+
+          />
+
+
+    </RelativeLayout>
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</LinearLayout>

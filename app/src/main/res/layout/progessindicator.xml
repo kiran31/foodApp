@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear_progress"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent">
+    <com.tuyenmonkey.mkloader.MKLoader
+        android:id="@+id/my_progressBar"
+        app:mk_color="@color/colorPrimary"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<!--app:gp_type="triangle"-->
+<!--        app:gp_number_of_angles="16"-->
+<!--        app:gp_color="@color/colorAccent"-->
+<!--        app:gp_figure_padding="@dimen/space_2"-->
+<!--        app:gp_duration="10000"-->
+<!--        android:indeterminate="true"/>-->
+
+
+</LinearLayout>

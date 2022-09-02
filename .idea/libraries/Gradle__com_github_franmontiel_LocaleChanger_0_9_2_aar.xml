@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.franmontiel:LocaleChanger:0.9.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58bf9f1edcb7717416aa6148ec7b2bd4/jetified-LocaleChanger-0.9.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58bf9f1edcb7717416aa6148ec7b2bd4/jetified-LocaleChanger-0.9.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/58bf9f1edcb7717416aa6148ec7b2bd4/jetified-LocaleChanger-0.9.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6336f6c6200ea244fe2626199bf2761c/jetified-LocaleChanger-0.9.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6336f6c6200ea244fe2626199bf2761c/jetified-LocaleChanger-0.9.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6336f6c6200ea244fe2626199bf2761c/jetified-LocaleChanger-0.9.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8006a197374e4fc511eef1fdbfbfd9c/jetified-LocaleChanger-0.9.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8006a197374e4fc511eef1fdbfbfd9c/jetified-LocaleChanger-0.9.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f8006a197374e4fc511eef1fdbfbfd9c/jetified-LocaleChanger-0.9.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acda06c3e84b9a928aa5a107d8e77ff6/jetified-LocaleChanger-0.9.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acda06c3e84b9a928aa5a107d8e77ff6/jetified-LocaleChanger-0.9.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/acda06c3e84b9a928aa5a107d8e77ff6/jetified-LocaleChanger-0.9.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/063ea8192fe8d68972ff76565f25d297/jetified-LocaleChanger-0.9.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/063ea8192fe8d68972ff76565f25d297/jetified-LocaleChanger-0.9.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/063ea8192fe8d68972ff76565f25d297/jetified-LocaleChanger-0.9.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/edbb40060eb3ec20e5ce0fecd79bc127/jetified-LocaleChanger-0.9.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/edbb40060eb3ec20e5ce0fecd79bc127/jetified-LocaleChanger-0.9.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/edbb40060eb3ec20e5ce0fecd79bc127/jetified-LocaleChanger-0.9.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c83cf0c5e33a9b60b4e644127d87884d/jetified-LocaleChanger-0.9.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c83cf0c5e33a9b60b4e644127d87884d/jetified-LocaleChanger-0.9.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c83cf0c5e33a9b60b4e644127d87884d/jetified-LocaleChanger-0.9.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c70a90dbab5923dd1d1e0e054c32880d/jetified-LocaleChanger-0.9.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c70a90dbab5923dd1d1e0e054c32880d/jetified-LocaleChanger-0.9.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c70a90dbab5923dd1d1e0e054c32880d/jetified-LocaleChanger-0.9.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.franmontiel/LocaleChanger/0.9.2/ecbcd6f1b3bc306500f1f45ca4bbc24d144f02cd/LocaleChanger-0.9.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.franmontiel/LocaleChanger/0.9.2/ecaa0c3385e567b8cad063b8db0949100d35bb20/LocaleChanger-0.9.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

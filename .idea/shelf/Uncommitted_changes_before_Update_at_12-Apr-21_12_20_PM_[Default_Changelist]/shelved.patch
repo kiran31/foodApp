@@ -1,0 +1,42 @@
+Index: app/src/main/java/binplus/foodiswill/Adapter/CityAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package binplus.foodiswill.Adapter;\r\n\r\nimport android.content.Context;\r\nimport android.util.Log;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\nimport android.view.ViewGroup;\r\nimport android.widget.ImageView;\r\nimport android.widget.ProgressBar;\r\nimport android.widget.RadioButton;\r\nimport android.widget.RelativeLayout;\r\nimport android.widget.TextView;\r\n\r\nimport androidx.annotation.NonNull;\r\nimport androidx.recyclerview.widget.RecyclerView;\r\n\r\nimport com.squareup.picasso.Callback;\r\nimport com.squareup.picasso.Picasso;\r\n\r\nimport java.util.ArrayList;\r\n\r\nimport binplus.foodiswill.Config.Module;\r\nimport binplus.foodiswill.Model.CityModel;\r\nimport binplus.foodiswill.R;\r\n\r\nimport static binplus.foodiswill.Config.BaseURL.IMG_CITY_URL;\r\n\r\n/**\r\n * Developed by Binplus Technologies pvt. ltd.  on 20,March,2021\r\n */\r\npublic class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder> {\r\n  Module module;\r\n    Context context;\r\n    ArrayList<CityModel> list;\r\n\r\n    public CityAdapter(Context context, ArrayList<CityModel> list) {\r\n        this.context = context;\r\n        this.list = list;\r\n    }\r\n\r\n\r\n\r\n    @NonNull\r\n    @Override\r\n    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {\r\n        View view= LayoutInflater.from(context).inflate(R.layout.row_city,null);\r\n        return new ViewHolder(view);\r\n    }\r\n\r\n    @Override\r\n    public void onBindViewHolder(@NonNull final ViewHolder holder, int position) {\r\n     CityModel model=list.get(position);\r\n     holder.tv_title.setText(model.getCity_name());\r\n      holder.pbar.setVisibility(View.VISIBLE);\r\n         Picasso.with(context).load(model.getCity_image()).noFade().into(holder.iv_icon, new Callback() {\r\n             @Override\r\n             public void onSuccess() {\r\n                 holder.pbar.setVisibility(View.GONE);\r\n             }\r\n\r\n             @Override\r\n             public void onError() {\r\n                 holder.pbar.setVisibility(View.GONE);\r\n             }\r\n         });\r\n        Log.e( \"onBindViewHolder: \",\"\"+position);\r\n             holder.rb_selected.setChecked(model.isSelected());\r\n\r\n\r\n\r\n    }\r\n\r\n    @Override\r\n    public int getItemCount() {\r\n        return list.size();\r\n    }\r\n\r\n    public class ViewHolder extends RecyclerView.ViewHolder {\r\n        TextView tv_title;\r\n        ImageView iv_icon;\r\n        RelativeLayout rl_selected;\r\n        ProgressBar pbar;\r\n        RadioButton rb_selected;\r\n        public ViewHolder(@NonNull View v) {\r\n            super(v);\r\n            rl_selected=v.findViewById(R.id.rl_selected);\r\n            rb_selected=v.findViewById(R.id.rb_selected);\r\n            iv_icon=v.findViewById(R.id.iv_icon);\r\n            tv_title=v.findViewById(R.id.tv_title);\r\n            pbar=v.findViewById(R.id.pbar);\r\n            module=new Module(context);\r\n        }\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/binplus/foodiswill/Adapter/CityAdapter.java	(revision b69cfd8cbb45639a9bbe66cd4b42af595f3c3a26)
++++ app/src/main/java/binplus/foodiswill/Adapter/CityAdapter.java	(date 1618209426989)
+@@ -52,17 +52,22 @@
+      CityModel model=list.get(position);
+      holder.tv_title.setText(model.getCity_name());
+       holder.pbar.setVisibility(View.VISIBLE);
+-         Picasso.with(context).load(model.getCity_image()).noFade().into(holder.iv_icon, new Callback() {
+-             @Override
+-             public void onSuccess() {
+-                 holder.pbar.setVisibility(View.GONE);
+-             }
++      if(!module.checkNull(model.getCity_image())) {
++          Picasso.with(context).load(model.getCity_image()).noFade().into(holder.iv_icon, new Callback() {
++              @Override
++              public void onSuccess() {
++                  holder.pbar.setVisibility(View.GONE);
++              }
+ 
+-             @Override
+-             public void onError() {
+-                 holder.pbar.setVisibility(View.GONE);
+-             }
+-         });
++              @Override
++              public void onError() {
++                  holder.pbar.setVisibility(View.GONE);
++              }
++          });
++      }else{
++          holder.pbar.setVisibility(View.GONE);
++          holder.iv_icon.setImageResource(R.drawable.main_logo);
++      }
+         Log.e( "onBindViewHolder: ",""+position);
+              holder.rb_selected.setChecked(model.isSelected());
+ 

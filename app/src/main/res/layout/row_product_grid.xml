@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="@dimen/space_4"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/card_product">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="360dp">
+
+        <ImageView
+            android:id="@+id/product_img"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/icon"
+            android:scaleType="fitXY"/>
+        <View
+            android:layout_below="@id/product_img"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/space_5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/dark_gray"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/space_8"
+            android:id="@+id/rel_wish">
+
+
+            <ImageView
+                android:id="@+id/wish_before"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+                app:srcCompat="@drawable/wish_before"
+                />
+
+            <ImageView
+                android:id="@+id/wish_after"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+
+                app:srcCompat="@drawable/wish_after"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/img_cart"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/space_8"
+            android:layout_below="@+id/rel_wish"
+            app:srcCompat="@drawable/icons_cart"
+            android:tint="@color/dark_gray"
+            android:visibility="gone"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+            <ImageView
+                android:id="@+id/iv_dis"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"
+                android:layout_centerVertical="true"
+                android:background="@drawable/dis_banner"
+                />
+            <binplus.foodiswill.Fonts.LatoBLack
+                android:id="@+id/product_discount"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text=" discount"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textColor="@android:color/white"/>
+        </RelativeLayout>
+        <binplus.foodiswill.Fonts.LatoBLack
+            android:id="@+id/product_price"
+            android:layout_below="@+id/product_img"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="price"
+            android:padding="2dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            ></binplus.foodiswill.Fonts.LatoBLack>
+        <binplus.foodiswill.Fonts.LatoBLack
+            android:id="@+id/product_mrp"
+            android:layout_below="@+id/product_img"
+            android:layout_toRightOf="@+id/product_price"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="price"
+            android:textColor="@color/color_3"
+            android:textSize="14sp"
+            android:paddingTop="2dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            ></binplus.foodiswill.Fonts.LatoBLack>
+<!--        <binplus.Jabico.Fonts.LatoBLack-->
+<!--            android:id="@+id/product_discount"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/product_img"-->
+<!--            android:layout_toRightOf="@id/product_mrp"-->
+<!--            android:text="discount"-->
+<!--            android:paddingTop="2dp"-->
+<!--            android:textSize="14sp"-->
+<!--            android:textColor="@android:color/holo_red_dark"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="@dimen/space_5"/>-->
+        <binplus.foodiswill.Fonts.LatoBLack
+            android:id="@+id/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/product_price"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:textColor="@color/black"
+            android:text="@string/app_name"
+
+            />
+
+       <RelativeLayout
+           android:id="@+id/weight"
+           android:layout_above="@+id/rel_add"
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+        <binplus.foodiswill.Fonts.LatoBLack
+            android:id="@+id/txtId"
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="29dp"
+            android:textSize="10dp"
+            android:text="Weight :"
+            android:layout_marginRight="70dp"
+
+            android:visibility="invisible"
+            />
+        <binplus.foodiswill.Fonts.LatoBLack
+            android:id="@+id/txtVar"
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginRight="70dp"
+            android:textSize="10dp"
+            android:text="Weight :"
+            android:visibility="invisible"
+            />
+        <binplus.foodiswill.Fonts.LatoBLack
+            android:id="@+id/product_weight"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="1kg"
+            android:textColor="@color/black"
+            android:textAlignment="gravity"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/space_2"
+
+            />
+        <RelativeLayout
+            android:id="@+id/rel_variant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_5"
+            android:layout_marginLeft="22dp"
+            android:visibility="gone"
+           android:layout_centerHorizontal="true"
+
+
+            android:background="@drawable/relative_unit_layout">
+            <binplus.foodiswill.Fonts.LatoBLack
+                android:id="@+id/unit_type"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:paddingTop="5dp"
+                android:paddingRight="@dimen/space_2"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="text"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <ImageView
+
+                android:background="@drawable/ic_arrow_drop_down_black_24dp"
+                android:layout_width="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_height="30dp">
+
+            </ImageView>
+
+        </RelativeLayout>
+       </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rel_add"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/space_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/space_8"
+
+
+           >
+
+
+
+        <Button
+            android:id="@+id/add_btn"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_rounded_button"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="add"
+            android:fontFamily="@font/bold"
+            android:textColor="@color/white"
+            android:drawablePadding="5dp"
+
+            />
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                app:textSize="7dp"
+                app:initialNumber="0"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/elegantButton"
+                app:backGroundColor="@color/colorAccent"
+                app:backgroundDrawable="@drawable/bg_rounded_button"
+                android:visibility="gone"
+               />
+
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rel_out"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/soldout"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

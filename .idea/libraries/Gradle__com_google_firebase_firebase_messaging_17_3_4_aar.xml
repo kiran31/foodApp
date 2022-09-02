@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-messaging:17.3.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d6dd88c58109813c5bf38880d51817a/jetified-firebase-messaging-17.3.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d6dd88c58109813c5bf38880d51817a/jetified-firebase-messaging-17.3.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab506118ddfedb418687b2f53bb2bb81/jetified-firebase-messaging-17.3.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab506118ddfedb418687b2f53bb2bb81/jetified-firebase-messaging-17.3.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab506118ddfedb418687b2f53bb2bb81/jetified-firebase-messaging-17.3.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef86663f4e49a75c08e3ae49a72912d3/jetified-firebase-messaging-17.3.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef86663f4e49a75c08e3ae49a72912d3/jetified-firebase-messaging-17.3.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef86663f4e49a75c08e3ae49a72912d3/jetified-firebase-messaging-17.3.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3892c943366c4fef44ebcb486974921b/jetified-firebase-messaging-17.3.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3892c943366c4fef44ebcb486974921b/jetified-firebase-messaging-17.3.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3892c943366c4fef44ebcb486974921b/jetified-firebase-messaging-17.3.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1e86b9c17495f109a155acd84a09868a/jetified-firebase-messaging-17.3.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1e86b9c17495f109a155acd84a09868a/jetified-firebase-messaging-17.3.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1e86b9c17495f109a155acd84a09868a/jetified-firebase-messaging-17.3.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d2a02f7ab91e9eb8120abb121201e4b/jetified-firebase-messaging-17.3.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d2a02f7ab91e9eb8120abb121201e4b/jetified-firebase-messaging-17.3.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d2a02f7ab91e9eb8120abb121201e4b/jetified-firebase-messaging-17.3.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf59d75cf8fbef6dbb2357f959ba6cdd/jetified-firebase-messaging-17.3.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf59d75cf8fbef6dbb2357f959ba6cdd/jetified-firebase-messaging-17.3.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bf59d75cf8fbef6dbb2357f959ba6cdd/jetified-firebase-messaging-17.3.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a8458a59f5f51ccaa72bfaa072e4119/jetified-firebase-messaging-17.3.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a8458a59f5f51ccaa72bfaa072e4119/jetified-firebase-messaging-17.3.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0a8458a59f5f51ccaa72bfaa072e4119/jetified-firebase-messaging-17.3.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-messaging/17.3.4/5a0ecbcab24f4136e8ae8a99f2fd80a3a05a4a68/firebase-messaging-17.3.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

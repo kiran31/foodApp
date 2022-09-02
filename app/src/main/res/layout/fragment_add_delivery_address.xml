@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/space_10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:id="@+id/tv_add_adres_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_reg_name_hint"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/iconnemail"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/iconn" />
+
+            </LinearLayout>
+
+
+            <EditText
+                android:hint="Enter Name"
+                android:fontFamily="@font/bold"
+                android:id="@+id/et_add_adres_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_4"
+                android:layout_marginBottom="@dimen/space_5"
+                android:background="@drawable/xml_textbox_bg"
+                android:ems="10"
+                android:inputType="text"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:id="@+id/tv_add_adres_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile No."
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/iconm"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/iconn" />
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/et_add_adres_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_4"
+                android:fontFamily="@font/bold"
+                android:hint="Enter Mobile number"
+                android:layout_marginBottom="@dimen/space_5"
+                android:background="@drawable/xml_textbox_bg"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textSize="@dimen/space_14" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:id="@+id/tv_add_adres_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email Address"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/iconm_email"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/iconn" />
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_4"
+                android:fontFamily="@font/bold"
+                android:hint="Enter Email (Optional)"
+                android:layout_marginBottom="@dimen/space_5"
+                android:background="@drawable/xml_textbox_bg"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textSize="@dimen/space_14" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:id="@+id/tv_add_adres_pin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_reg_pincode"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/iconpass"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/iconn" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/et_add_adres_pin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_4"
+                android:layout_marginBottom="@dimen/space_5"
+                android:background="@drawable/xml_textbox_bg"
+                android:ems="10"
+                android:fontFamily="@font/bold"
+                android:hint="Enter Society"
+                android:inputType="number"
+                android:textColor="#000"
+
+                android:textSize="@dimen/space_14" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:id="@+id/tv_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/area"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/iconn" />
+
+            </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/et_add_adres_home"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="@dimen/space_4"
+                android:layout_marginBottom="@dimen/space_5"
+                android:background="@drawable/xml_textbox_bg"
+                android:inputType="textMultiLine"
+                android:fontFamily="@font/bold"
+                android:hint="Enter full address"
+                android:gravity="top"
+                android:textAlignment="gravity"
+
+                android:textSize="@dimen/space_14"
+                />
+
+            <RelativeLayout
+                android:id="@+id/btn_add_adres_edit"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/bg_rounded_button"
+                android:padding="12dp">
+
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:id="@+id/add_updt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/add_del"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/space_16" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

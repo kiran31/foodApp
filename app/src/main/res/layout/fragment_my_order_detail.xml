@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimaryDark"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextAppearance="@style/RobotoBoldTextAppearance">
+
+            <!--            <RelativeLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content">-->
+
+            <!--                <ImageView-->
+            <!--                    android:id="@+id/back_button"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:background="" />-->
+
+            <!--                <binplus.Jabico.Fonts.LatoBLack-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:gravity="center"-->
+            <!--                    android:text="Order"-->
+            <!--                    android:textColor="#ffffff"-->
+            <!--                    android:textSize="18sp" />-->
+
+            <!--            </RelativeLayout>-->
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/app_bar"
+
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/linView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="70dp"
+            android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rel_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_order_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_below="@+id/rel_items"
+        android:id="@+id/textDateTimeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_gray"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:padding="@dimen/space_10">
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:id="@+id/txt"
+                    android:layout_weight=".3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Name :"
+                    android:textColor="#000" />
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:id="@+id/tv_name"
+                    android:layout_weight="1.7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="right"
+                    android:textColor="#000" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:layout_weight=".5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Contact No :"
+                    android:textColor="#000" />
+            <binplus.foodiswill.Fonts.LatoBLack
+                android:id="@+id/tv_mobile"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:layout_weight=".5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Order Date :"
+                    android:textColor="#000" />
+            <binplus.foodiswill.Fonts.LatoBLack
+                android:layout_weight="1.5"
+                android:gravity="right"
+                android:id="@+id/tv_order_Detail_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:layout_weight=".5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Order Time :"
+                    android:textColor="#000" />
+
+            <binplus.foodiswill.Fonts.LatoBLack
+                android:layout_weight="1.5"
+                android:id="@+id/tv_order_Detail_time"
+                android:layout_width="0dp"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:layout_weight=".8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery Charge :"
+                    android:textColor="#000" />
+            <binplus.foodiswill.Fonts.LatoBLack
+                android:layout_weight="1.2"
+                android:gravity="right"
+                android:id="@+id/tv_order_Detail_deli_charge"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:layout_weight=".8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Disinfection Charge :"
+                    android:textColor="#000" />
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:layout_weight="1.2"
+                    android:gravity="right"
+                    android:id="@+id/tv_disinf_charge"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_coupon"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Applied Coupon Code :"
+                    android:textColor="#000" />
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:id="@+id/tv_coupon"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_dis_amt"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Discount By Coupon :"
+                    android:textColor="#000" />
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:id="@+id/tv_dis_amt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:layout_weight=".5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Address :"
+                    android:textColor="#000" />
+            <binplus.foodiswill.Fonts.LatoBLack
+                android:id="@+id/tv_address"
+                android:layout_weight="1.5"
+                android:gravity="right"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/tv_pdf"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/bg_rounded_button"
+                android:padding="12dp"
+                android:layout_marginTop="@dimen/space_10"
+                android:layout_marginLeft="@dimen/space_20"
+                android:layout_marginRight="@dimen/space_20"
+                android:elevation="5dp">
+
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Download Receipt"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/space_16"/>
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_above="@+id/input_bar"
+                android:id="@+id/btn_order_detail_cancle"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/bg_rounded_button"
+                android:padding="12dp">
+
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/tv_order_cancle"
+                    android:textColor="#fff"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/text_size_small" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/input_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <binplus.foodiswill.Fonts.LatoBLack
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_order_summery"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal">
+
+            <binplus.foodiswill.Fonts.LatoBLack
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_order_total"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <binplus.foodiswill.Fonts.LatoBLack
+                android:id="@+id/tv_order_Detail_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_10"
+                android:layout_marginStart="@dimen/space_10"
+                android:text="00.00"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

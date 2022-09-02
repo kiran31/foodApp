@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="Gradle: com.thoughtbot:expandablerecyclerview:1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3e562845a5ff82ff812e940cbb72d6a/jetified-expandablerecyclerview-1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3e562845a5ff82ff812e940cbb72d6a/jetified-expandablerecyclerview-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a3e562845a5ff82ff812e940cbb72d6a/jetified-expandablerecyclerview-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a330f21916a34910f8e43fb0e9de605d/jetified-expandablerecyclerview-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a330f21916a34910f8e43fb0e9de605d/jetified-expandablerecyclerview-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a330f21916a34910f8e43fb0e9de605d/jetified-expandablerecyclerview-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e5bbb579db6eb730a6126cacddfc50d/jetified-expandablerecyclerview-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e5bbb579db6eb730a6126cacddfc50d/jetified-expandablerecyclerview-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e5bbb579db6eb730a6126cacddfc50d/jetified-expandablerecyclerview-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd84b388fefb38059741cfd9b21d0e33/jetified-expandablerecyclerview-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd84b388fefb38059741cfd9b21d0e33/jetified-expandablerecyclerview-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dd84b388fefb38059741cfd9b21d0e33/jetified-expandablerecyclerview-1.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a73389be71afbe525503bd81646c0ec/jetified-expandablerecyclerview-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a73389be71afbe525503bd81646c0ec/jetified-expandablerecyclerview-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a73389be71afbe525503bd81646c0ec/jetified-expandablerecyclerview-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/539cb6bbd6c83f7d7b99f17e236aa6c0/jetified-expandablerecyclerview-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/539cb6bbd6c83f7d7b99f17e236aa6c0/jetified-expandablerecyclerview-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/539cb6bbd6c83f7d7b99f17e236aa6c0/jetified-expandablerecyclerview-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7291f46aa57675c831c1cd89a250fbd0/jetified-expandablerecyclerview-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7291f46aa57675c831c1cd89a250fbd0/jetified-expandablerecyclerview-1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7291f46aa57675c831c1cd89a250fbd0/jetified-expandablerecyclerview-1.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19714c87c2ae1d4863069bf2fde24091/jetified-expandablerecyclerview-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19714c87c2ae1d4863069bf2fde24091/jetified-expandablerecyclerview-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19714c87c2ae1d4863069bf2fde24091/jetified-expandablerecyclerview-1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtbot/expandablerecyclerview/1.0/d08487475a9c3617afaaa218fabd950ebde0bca9/expandablerecyclerview-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtbot/expandablerecyclerview/1.0/f5439b91422883ad665764e6896e1e7cc72288f1/expandablerecyclerview-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- <item android:title=""></item>
+     <item android:title=""></item>
+ <item android:title=""></item>
+     <item android:title=""></item>
+     <item android:title=""></item> -->
+
+
+    <group
+        android:id="@+id/group_shop_now"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shop_now"
+            android:icon="@drawable/icons8_grid_view_52px_1"
+            android:iconTint="@android:color/white"
+            android:title="@string/nav_home" />
+    </group>
+    <group
+        android:id="@+id/group_contactus"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/icons8_customer_support_60px"
+
+            android:iconTint="@android:color/white"
+
+            android:title="Contact Us" />
+    </group>
+    <group
+        android:id="@+id/group_my_profile"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/icons8_profile_100px"
+            android:iconTint="@android:color/white"
+            android:title="@string/nav_profile"
+            android:visible="false"/>
+    </group>
+
+    <!--<group-->
+    <!--android:id="@+id/group_support"-->
+    <!--android:checkableBehavior="single">-->
+    <!--<item-->
+    <!--android:id="@+id/nav_support"-->
+    <!--android:icon="@drawable/ic_nav_support"-->
+    <!--android:title="@string/nav_chat" />-->
+    <!--</group>-->
+    <group
+        android:id="@+id/group_aboutus"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/icons8_about_52px"
+            android:iconTint="@android:color/white"
+            android:title="@string/nav_about" />
+    </group>
+    <group
+        android:id="@+id/group_policy"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/icons8_profiles_48px"
+            android:iconTint="@android:color/white"
+            android:title="@string/nav_disclaimer" />
+    </group>
+
+    <group
+        android:id="@+id/group_return"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_return"
+            android:icon="@drawable/icons8_profiles_48px"
+            android:iconTint="@android:color/white"
+            android:title="@string/nav_return_policy" />
+    </group>
+    <group
+        android:id="@+id/group_terms"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/icons8_profiles_48px"
+            android:iconTint="@android:color/white"
+            android:title="@string/nav_terms" />
+    </group>
+
+    <group
+        android:id="@+id/group_fb"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fb"
+            android:icon="@drawable/icons8_facebook_old_100px"
+
+            android:iconTint="@android:color/white"
+
+            android:title="Connect on Facebook" />
+    </group>
+    <group
+        android:id="@+id/group_insta"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_insta"
+            android:icon="@drawable/icons8_instagram_60px"
+
+            android:iconTint="@android:color/white"
+
+            android:title="Follow on Instagram" />
+    </group>
+
+    <group
+        android:id="@+id/group_contact"
+        android:checkableBehavior="single"
+        android:visible="false">
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/online_support_30px"
+            android:iconTint="@android:color/white"
+            android:title="@string/nav_contact" />
+    </group>
+    <!--<group-->
+    <!--android:id="@+id/group_review"-->
+    <!--android:checkableBehavior="single">-->
+    <!--<item-->
+    <!--android:id="@+id/nav_review"-->
+    <!--android:icon="@drawable/ic_nav_review"-->
+    <!--android:title="@string/nav_review" />-->
+    <!--</group>-->
+    <group
+        android:visible="false"
+        android:id="@+id/group_link"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_link"
+            android:icon="@drawable/icons8_link_100px"
+            android:iconTint="@android:color/white"
+            android:title="Check this out" />
+    </group>
+    <group
+        android:id="@+id/group_share"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/icons8_share_48px"
+            android:iconTint="@android:color/white"
+            android:title="@string/nav_share" />
+    </group>
+
+    <group
+        android:id="@+id/group_rate"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/icons8_star_48"
+            android:iconTint="@android:color/white"
+            android:title="Rate Us" />
+    </group>
+
+    <group
+        android:id="@+id/group_logout"
+        android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/icons8_exit_52px"
+            android:iconTint="@android:color/white"
+            android:title="@string/nav_logout" />
+    </group>
+    <!--<item
+        android:id="@+id/nav_powerd"
+        android:icon="@drawable/copy"
+        android:title="@string/status_stop" />-->
+    <group>
+        <item
+
+            android:title="" />
+    </group>
+    <group>
+        <item
+
+            android:title="" />
+    </group>
+    <group android:visible="false"
+        >
+        <item android:visible="false"
+            android:title=" \t \t \t         Developed By:" />
+
+
+    </group>
+    <group android:visible="false">
+        <item android:visible="false"
+
+            android:title="     Binplus Technologies (P) Limited" />
+    </group>
+
+</menu>

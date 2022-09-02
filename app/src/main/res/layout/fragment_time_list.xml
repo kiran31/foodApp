@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <binplus.foodiswill.Fonts.LatoBLack
+        android:id="@+id/txtNote"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Your order will be delivered next day "
+        android:padding="@dimen/space_10" />
+
+    <binplus.foodiswill.Fonts.LatoBLack
+        android:id="@+id/textView2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select a time slot "
+
+        android:padding="@dimen/space_10"
+
+        android:textStyle="bold"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_margin="@dimen/space_10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_times"/>
+
+</LinearLayout>

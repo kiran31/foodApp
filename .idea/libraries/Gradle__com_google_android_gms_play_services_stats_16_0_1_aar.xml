@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-stats:16.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a443612ef30eb372247d97f0c87f860/jetified-play-services-stats-16.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a443612ef30eb372247d97f0c87f860/jetified-play-services-stats-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a443612ef30eb372247d97f0c87f860/jetified-play-services-stats-16.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3dc975def2608a08bf56202224911768/jetified-play-services-stats-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3dc975def2608a08bf56202224911768/jetified-play-services-stats-16.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3dc975def2608a08bf56202224911768/jetified-play-services-stats-16.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d56c1c3dfbc7a2f52f41d467939b9d1/jetified-play-services-stats-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d56c1c3dfbc7a2f52f41d467939b9d1/jetified-play-services-stats-16.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d56c1c3dfbc7a2f52f41d467939b9d1/jetified-play-services-stats-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3abca6155da808f3c0d94918c70fb903/jetified-play-services-stats-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3abca6155da808f3c0d94918c70fb903/jetified-play-services-stats-16.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3abca6155da808f3c0d94918c70fb903/jetified-play-services-stats-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f6874e2d529072f78eae26b31c29a2cf/jetified-play-services-stats-16.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f6874e2d529072f78eae26b31c29a2cf/jetified-play-services-stats-16.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f6874e2d529072f78eae26b31c29a2cf/jetified-play-services-stats-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/807b385c2a3a0141e5a954a96cd44a89/jetified-play-services-stats-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/807b385c2a3a0141e5a954a96cd44a89/jetified-play-services-stats-16.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/807b385c2a3a0141e5a954a96cd44a89/jetified-play-services-stats-16.0.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/caf8bb31cb3a2f96dba07c210a7d12ba/jetified-play-services-stats-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/caf8bb31cb3a2f96dba07c210a7d12ba/jetified-play-services-stats-16.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/caf8bb31cb3a2f96dba07c210a7d12ba/jetified-play-services-stats-16.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f981e6757e3425b981d2c96fe9cd7dd/jetified-play-services-stats-16.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f981e6757e3425b981d2c96fe9cd7dd/jetified-play-services-stats-16.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f981e6757e3425b981d2c96fe9cd7dd/jetified-play-services-stats-16.0.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

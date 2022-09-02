@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:numberpicker="http://schemas.android.com/tools">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+android:layout_margin="@dimen/space_4"
+        android:padding="@dimen/space_5"
+        app:cardCornerRadius="@dimen/space_10"
+       >
+    <RelativeLayout
+        android:id="@+id/relative_top"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+
+        <RelativeLayout
+            android:id="@+id/rel1"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/rel_img"
+                android:layout_margin="@dimen/space_10"
+                android:layout_width="150dp"
+                android:layout_height="130dp">
+
+
+                <ImageView
+                    android:id="@+id/iv_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/space_5"
+                    android:src="@drawable/icon"
+                    android:visibility="gone"
+                    android:scaleType="fitXY"/>
+                <ProgressBar
+                    android:id="@+id/pb_bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:indeterminateTint="@color/colorAccent"
+                    style="@android:style/Widget.ProgressBar.Small"/>
+                <RelativeLayout
+                    android:id="@+id/rel_discount"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/space_10"
+                    android:layout_height="wrap_content"
+
+                    >
+                    <ImageView
+                        android:id="@+id/iv_dis"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:scaleType="fitXY"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/dis_banner"
+                        />
+                    <binplus.foodiswill.Fonts.LatoBLack
+                        android:id="@+id/product_discount"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text=" discount"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:textColor="@android:color/white"
+                        />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_toRightOf="@+id/rel_img"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pricelay"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+                <TextView
+
+                    android:id="@+id/product_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Price :"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/bold"
+
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:id="@+id/product_mrp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/tv_subcat_price"
+                    android:paddingTop="3dp"
+                    android:text="Price"
+
+                    android:textColor="@color/color_3"
+                    android:textSize="14dp" />
+
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_below="@+id/rel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+
+            <binplus.foodiswill.Fonts.LatoBLack
+
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="gravity"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Product Name"
+                android:textColor="@color/black"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textSize="14dp" />
+
+
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="@dimen/space_5"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:id="@+id/txtId"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="10dp"
+                    android:visibility="invisible" />
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:id="@+id/txtVar"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textSize="10dp"
+                    android:text="Weight :"
+                    android:gravity="center"
+                    android:visibility="invisible"
+                    />
+
+                <binplus.foodiswill.Fonts.LatoBLack
+                    android:id="@+id/single_varient"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:text="1kg"
+                    android:textAlignment="gravity"
+
+                    />
+                <RelativeLayout
+                    android:id="@+id/rel_variant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_5"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:visibility="gone"
+                    android:background="@color/white"
+                    >
+                    <binplus.foodiswill.Fonts.LatoBLack
+                        android:id="@+id/unit_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:paddingTop="5dp"
+                        android:gravity="center_vertical"
+                        android:paddingRight="@dimen/space_2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="text"
+                        android:textColor="@color/black"
+                        android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                        android:drawablePadding="@dimen/space_5"
+
+                        android:textSize="15sp" />
+                    <!--                        <ImageView-->
+                    <!--                           android:layout_alignParentEnd="true"-->
+                    <!--                    -->
+                    <!--                            android:layout_width="30dp"-->
+
+                    <!--                            android:layout_height="30dp">-->
+
+                    <!--                        </ImageView>-->
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/space_5"
+
+            >
+
+
+            <Button
+                android:fontFamily="@font/bold"
+                android:id="@+id/btn_add"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_margin="@dimen/space_5"
+
+                android:layout_centerInParent="true"
+
+                android:background="@drawable/bg_rounded_button"
+                android:clickable="true"
+                android:text="Add"
+
+                android:textColor="@color/white"
+
+                />
+         <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:id="@+id/product_qty"
+                android:layout_width="150dp"
+             android:layout_centerInParent="true"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                app:textSize="7dp"
+                app:initialNumber="0"
+                app:finalNumber="10"
+                android:layout_centerHorizontal="true"
+                app:backGroundColor="@color/colorAccent"
+                app:backgroundDrawable="@drawable/bg_rounded_button"
+                android:visibility="gone"
+                app:textColor="@color/white"
+                            />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/space_8"
+            android:id="@+id/rel_wish">
+
+
+            <ImageView
+                android:id="@+id/wish_before"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/wish_before"
+
+                />
+
+            <ImageView
+                android:id="@+id/wish_after"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/wish_after"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_out"
+            android:rotation="180"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+
+
+            >
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+              android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:rotation="-270"
+                android:background="@drawable/soldout"
+                />
+        </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-iid:17.0.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e05de8ee7a195012cbeafc5f56dad8e3/jetified-firebase-iid-17.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e05de8ee7a195012cbeafc5f56dad8e3/jetified-firebase-iid-17.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e05de8ee7a195012cbeafc5f56dad8e3/jetified-firebase-iid-17.0.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc2544df03d96d280014fab1f614afaa/jetified-firebase-iid-17.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc2544df03d96d280014fab1f614afaa/jetified-firebase-iid-17.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc2544df03d96d280014fab1f614afaa/jetified-firebase-iid-17.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d412e5f8ef0717644a8391a5172db04/jetified-firebase-iid-17.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d412e5f8ef0717644a8391a5172db04/jetified-firebase-iid-17.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d412e5f8ef0717644a8391a5172db04/jetified-firebase-iid-17.0.4/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15c334c06edbee2d706d84657cd30e8d/jetified-firebase-iid-17.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15c334c06edbee2d706d84657cd30e8d/jetified-firebase-iid-17.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/15c334c06edbee2d706d84657cd30e8d/jetified-firebase-iid-17.0.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4cfa6785c2f728f452c92f2fd43014f0/jetified-firebase-iid-17.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4cfa6785c2f728f452c92f2fd43014f0/jetified-firebase-iid-17.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4cfa6785c2f728f452c92f2fd43014f0/jetified-firebase-iid-17.0.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/44b4eb483e8ebe85e6bcea3f3bca86ec/jetified-firebase-iid-17.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/44b4eb483e8ebe85e6bcea3f3bca86ec/jetified-firebase-iid-17.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/44b4eb483e8ebe85e6bcea3f3bca86ec/jetified-firebase-iid-17.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/914096dd2f03d6e60a8ee5261bc34d88/jetified-firebase-iid-17.0.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/914096dd2f03d6e60a8ee5261bc34d88/jetified-firebase-iid-17.0.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/914096dd2f03d6e60a8ee5261bc34d88/jetified-firebase-iid-17.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f36335bcd9f5ce4ae6bc68cebe3bd30b/jetified-firebase-iid-17.0.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f36335bcd9f5ce4ae6bc68cebe3bd30b/jetified-firebase-iid-17.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f36335bcd9f5ce4ae6bc68cebe3bd30b/jetified-firebase-iid-17.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-iid/17.0.4/52a3baef73be52e5197545247e6590b897bec788/firebase-iid-17.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

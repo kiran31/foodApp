@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="Gradle: com.daimajia.slider:library:1.1.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/229d508a99994e217d3277574ce69130/jetified-library-1.1.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/229d508a99994e217d3277574ce69130/jetified-library-1.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/229d508a99994e217d3277574ce69130/jetified-library-1.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cfd4b0d1f98aa926539b3f13111ad254/jetified-library-1.1.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cfd4b0d1f98aa926539b3f13111ad254/jetified-library-1.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cfd4b0d1f98aa926539b3f13111ad254/jetified-library-1.1.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6311ebd59238687e7dca4f0bb7df40b9/jetified-library-1.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6311ebd59238687e7dca4f0bb7df40b9/jetified-library-1.1.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6311ebd59238687e7dca4f0bb7df40b9/jetified-library-1.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbbc79821ca70ad9a3554d7706564964/jetified-library-1.1.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbbc79821ca70ad9a3554d7706564964/jetified-library-1.1.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbbc79821ca70ad9a3554d7706564964/jetified-library-1.1.5/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93b51f268e149fc14a36869ecf06671a/jetified-library-1.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93b51f268e149fc14a36869ecf06671a/jetified-library-1.1.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93b51f268e149fc14a36869ecf06671a/jetified-library-1.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7d2eb9092e9d60c6716d59d67fd8296/jetified-library-1.1.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7d2eb9092e9d60c6716d59d67fd8296/jetified-library-1.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b7d2eb9092e9d60c6716d59d67fd8296/jetified-library-1.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b0b7e74c9ee5ee70c0b656a4c014b7a/jetified-library-1.1.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b0b7e74c9ee5ee70c0b656a4c014b7a/jetified-library-1.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b0b7e74c9ee5ee70c0b656a4c014b7a/jetified-library-1.1.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1001a04b405a0f3b492eb0c8d0a6f228/jetified-library-1.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1001a04b405a0f3b492eb0c8d0a6f228/jetified-library-1.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1001a04b405a0f3b492eb0c8d0a6f228/jetified-library-1.1.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.daimajia.slider/library/1.1.5/80f7ad12f4db46326912a82285f58ebe4681740f/library-1.1.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.daimajia.slider/library/1.1.5/5040bee95115677508106e1a42cd685bdc570369/library-1.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

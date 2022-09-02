@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+<RelativeLayout
+
+    android:layout_margin="@dimen/space_2"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_round_trans"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="@dimen/space_1"
+
+
+        android:orientation="vertical"
+        android:padding="5dp">
+        <LinearLayout
+            android:id="@+id/lin_name"
+            android:weightSum="3"
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+
+                android:id="@+id/rl_selected"
+                android:layout_gravity="center_vertical"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/rb_selected"
+                    android:buttonTint="@color/colorPrimary"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+
+
+        <binplus.foodiswill.Fonts.LatoBLack
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+
+            android:text=""
+            android:maxLines="4"
+            android:textColor="@android:color/black"
+            android:textSize="10dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_weight="2.5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/space_8"
+        android:paddingRight="@dimen/space_8"
+        android:paddingTop="@dimen/space_5"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv_icon"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            />
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/pbar"
+            android:indeterminate="true"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@color/colorPrimary"
+            android:layout_centerInParent="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

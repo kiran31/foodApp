@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".OtpActivity">
+
+  <ImageView
+      android:id="@+id/verifyimg"
+      android:layout_width="300dp"
+      android:layout_height="250dp"
+      android:layout_marginTop="@dimen/space_20"
+      android:layout_centerHorizontal="true"
+      android:src="@drawable/smss"
+
+      />
+
+
+
+  <LinearLayout
+
+      android:id="@+id/li"
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/space_10"
+      android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/et_otp1"
+        android:background="@drawable/bg_round_with_border"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:maxLength="1"
+        android:fontFamily="@font/bold"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_marginLeft="@dimen/space_10"
+        />
+
+    <EditText
+        android:id="@+id/et_otp2"
+        android:background="@drawable/bg_round_with_border"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/bold"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_marginLeft="@dimen/space_10"
+        />
+
+    <EditText
+        android:id="@+id/et_otp3"
+        android:fontFamily="@font/bold"
+        android:background="@drawable/bg_round_with_border"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_marginLeft="@dimen/space_10"
+        />
+
+    <EditText
+        android:fontFamily="@font/bold"
+        android:id="@+id/et_otp4"
+        android:background="@drawable/bg_round_with_border"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_marginLeft="@dimen/space_10"
+        />
+    <EditText
+        android:id="@+id/et_otp5"
+        android:background="@drawable/bg_round_with_border"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:maxLength="1"
+        android:fontFamily="@font/bold"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_marginLeft="@dimen/space_10"
+        />
+
+    <EditText
+        android:id="@+id/et_otp6"
+        android:background="@drawable/bg_round_with_border"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:maxLength="1"
+        android:fontFamily="@font/bold"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:layout_marginLeft="@dimen/space_10"
+        />
+  </LinearLayout>
+
+
+  <RelativeLayout
+      android:id="@+id/re"
+      android:layout_width="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/li"
+      >
+
+
+    <binplus.foodiswill.Fonts.LatoBLack
+        android:id="@+id/txtleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_5"
+        android:layout_centerHorizontal="true"
+        android:text="Time left :"/>
+    <binplus.foodiswill.Fonts.LatoBLack
+        android:id="@+id/tv_countdown"
+        android:text="0"
+        android:layout_toRightOf="@id/txtleft"
+        android:padding="@dimen/space_5"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+  </RelativeLayout>
+
+
+
+  <Button
+      android:fontFamily="@font/bold"
+      android:id="@+id/btn_otp_verify"
+      android:text=" Submit Code"
+      android:background="@drawable/bg_rounded_button"
+      android:layout_below="@id/re"
+      android:textColor="@color/white"
+      android:textAllCaps="false"
+      android:textSize="@dimen/space_16"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/space_20"
+      android:layout_marginRight="@dimen/space_20"/>
+
+
+</RelativeLayout>

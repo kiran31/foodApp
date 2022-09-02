@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="Gradle: com.borjabravo:readmoretextview:2.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a986794f5255c032e73b0b917f6b9d30/jetified-readmoretextview-2.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a986794f5255c032e73b0b917f6b9d30/jetified-readmoretextview-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a986794f5255c032e73b0b917f6b9d30/jetified-readmoretextview-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c68a6a9fcf4f56f13af3b74f23a9a334/jetified-readmoretextview-2.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c68a6a9fcf4f56f13af3b74f23a9a334/jetified-readmoretextview-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c68a6a9fcf4f56f13af3b74f23a9a334/jetified-readmoretextview-2.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8f87c246673fe1da655bf7836baeb31/jetified-readmoretextview-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8f87c246673fe1da655bf7836baeb31/jetified-readmoretextview-2.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a8f87c246673fe1da655bf7836baeb31/jetified-readmoretextview-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/053b8bb196613b22c19f999222c3563e/jetified-readmoretextview-2.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/053b8bb196613b22c19f999222c3563e/jetified-readmoretextview-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/053b8bb196613b22c19f999222c3563e/jetified-readmoretextview-2.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/53e33ba246fdf3c24358a1b518841b95/jetified-readmoretextview-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/53e33ba246fdf3c24358a1b518841b95/jetified-readmoretextview-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/53e33ba246fdf3c24358a1b518841b95/jetified-readmoretextview-2.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/27f95f3e0ea4e99bb92290b897a118ab/jetified-readmoretextview-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/27f95f3e0ea4e99bb92290b897a118ab/jetified-readmoretextview-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/27f95f3e0ea4e99bb92290b897a118ab/jetified-readmoretextview-2.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ca9e7b2792c9e74f17cd8af6e40fb87/jetified-readmoretextview-2.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ca9e7b2792c9e74f17cd8af6e40fb87/jetified-readmoretextview-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ca9e7b2792c9e74f17cd8af6e40fb87/jetified-readmoretextview-2.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab86b46025c3bbc37e6a812823f6c9db/jetified-readmoretextview-2.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab86b46025c3bbc37e6a812823f6c9db/jetified-readmoretextview-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab86b46025c3bbc37e6a812823f6c9db/jetified-readmoretextview-2.1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.borjabravo/readmoretextview/2.1.0/86c0dc811c02cb645bc1e564212ad38809fee700/readmoretextview-2.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.borjabravo/readmoretextview/2.1.0/b030287fe2b9fdcfac182285ca166e3e5b1c19e7/readmoretextview-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

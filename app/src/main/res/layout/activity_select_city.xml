@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectCity">
+
+    <LinearLayout
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+      <binplus.foodiswill.Fonts.LatoBLack
+          android:gravity="center"
+          android:padding="@dimen/space_10"
+          android:text="Select City"
+          android:layout_width="0dp"
+          android:textColor="@color/black"
+          android:layout_weight="4"
+          android:layout_height="wrap_content"/>
+      <binplus.foodiswill.Fonts.LatoBLack
+          android:id="@+id/tv_close"
+          android:gravity="center"
+          android:padding="@dimen/space_10"
+          android:text="Close"
+          android:layout_width="0dp"
+          android:textColor="@color/black"
+          android:layout_weight="1"
+          android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/gray"/>
+
+  <RelativeLayout
+      android:background="@color/gray"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+  </RelativeLayout>
+
+  <Button
+
+      android:layout_marginTop="@dimen/space_20"
+      android:fontFamily="@font/bold"
+      android:id="@+id/btn_submit"
+      android:text=" SAVE"
+      android:visibility="gone"
+      android:background="@drawable/bg_rounded_button"
+      android:layout_below="@id/re"
+      android:textColor="@color/white"
+      android:textAllCaps="false"
+      android:textSize="@dimen/space_16"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/space_20"
+      android:layout_marginRight="@dimen/space_20"/>
+</LinearLayout>
